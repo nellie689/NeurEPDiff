@@ -61,7 +61,7 @@ You should install FLASH if you want to run perform registration with well-learn
 [2]. Frequency diffeomorphisms for efficient image registration.  
       Miaomiao Zhang et al.. Information Processing in Medical Imaging (IPMI), 2017.  
       
-[3]. Fast diffeomorphic image registration via Fourier-approximated Lie algebras  
+[3]. Fast diffeomorphic image registration via Fourier-approximated Lie algebras.  
       Miaomiao Zhang, P. Thomas Fletcher. International Journal of Computer Vision(IJCV), 2019 . 
 
 
