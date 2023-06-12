@@ -5,16 +5,16 @@ This repository contains source code and data for NeurEPDiff: Neural Operators t
 
 ************************** Disclaimer ************************** 
 
-This code is only for research purpose and non-commercial use only, and we request you to cite our research paper if you use it:
-NeurEPDiff: Neural Operators to Predict Geodesics in Deformation Spaces
+This code is only for research purpose and non-commercial use only, and we request you to cite our research paper if you use it:  
+NeurEPDiff: Neural Operators to Predict Geodesics in Deformation Spaces  
 Nian Wu and Miaomiao Zhang. International Conference on Information Processing in Medical Imaging (IPMI) 2023.
 
-@article{wu2023neurepdiff,
-  title={NeurEPDiff: Neural Operators to Predict Geodesics in Deformation Spaces},
-  author={Wu, Nian and Zhang, Miaomiao},
-  journal={arXiv preprint arXiv:2303.07115},
-  year={2023}
-}
+@article{wu2023neurepdiff,  
+  title={NeurEPDiff: Neural Operators to Predict Geodesics in Deformation Spaces},  
+  author={Wu, Nian and Zhang, Miaomiao},  
+  journal={arXiv preprint arXiv:2303.07115},  
+  year={2023}  
+}  
 
 
 ************************** Setup ************************** 
