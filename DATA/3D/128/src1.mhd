@@ -1,0 +1,16 @@
+ObjectType = Image
+NDims = 3
+BinaryData = True
+BinaryDataByteOrderMSB = False
+CompressedData = False
+TransformMatrix = 1 0 0 0 1 0 0 0 1
+Offset = 0 0 0
+CenterOfRotation = 0 0 0
+AnatomicalOrientation = RAI
+ElementSpacing = 1 1 1
+ITK_InputFilterName = MetaImageIO
+ITK_original_direction = 1 0 0 0 1 0 0 0 1
+ITK_original_spacing = 1 1 1
+DimSize = 128 128 128
+ElementType = MET_FLOAT
+ElementDataFile = src1.raw
