@@ -11,7 +11,7 @@ import numpy as np
 import torch.nn as nn
 import torch.nn.functional as F
 import sys
-sys.path.append("/home/wn/hzfcode/fourier_neural_operator-master")
+sys.path.append("ROOT_DIRECTORY_OF_NeurEPDiff")
 import SimpleITK as sitk
 from utilities import *
 
@@ -145,9 +145,8 @@ modes = 8;
 # modes = 16
 EP = Epdiff(device, (16,16,1), (64,64,1),alpha,gamma,lpow)
 SmoothOper, SharpOper = EP.SmoothOper (modes, 1)  #[1, 16, 8]
-final_model =  '/newdisk/wn/DataSet/NP/model/FDD2_64_10_Velocity/Data1000-_alpha3.0_lpow3.0_gamma3.0_lr0.04_ep1000-smooth1-nogrid.pth'
-final_model =  '/newdisk/wn/DataSet/NP/model/FDD2_64_10_Velocity/Data1000-_alpha{}_lpow{}_gamma{}_lr0.04_ep1000-smooth1-nogrid.pth'\
-                                                                        .format(alpha, lpow, gamma)
+final_model =  'PATH_OF_2D_MODEL' #.pth format
+                                                                       
 ######################   load model    #########################
 model_v = NeurEPDiff2D().to(device)
 model_v.load_state_dict(torch.load(final_model,map_location='cpu')['model_state_dict'])
